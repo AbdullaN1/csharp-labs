@@ -14,6 +14,7 @@ namespace Task6
                 char ch = text[i];
                 if (char.IsUpper(ch))
                 {
+                    upperCount++;
                     result += char.ToLower(ch);
                 }
                 else
@@ -27,7 +28,7 @@ namespace Task6
 
         static void Main(string[] args)
         {
-            string inputText;
+            string? inputText;
             do
             {
                 Console.Write("Жолды енгізіңіз: ");
